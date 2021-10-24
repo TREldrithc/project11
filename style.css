@@ -4,15 +4,17 @@
 }
 body, html{
     height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 nav{
-    position: absolute;
-    height: 75px;
-    width: 100%;
+    background-color: rebeccapurple;
+    position: sticky;
     text-align: center;
-    line-height: 100px;
+    line-height: 75px;
     z-index: 2;
     cursor: pointer;
+    top: 0;
 }
 nav a{
     color : #FFF;
@@ -34,11 +36,7 @@ nav a:hover{
     height: 100%;
     background-color: lightgreen;
     background-size: cover;
-    background-attachment: fixed;
-}
-.band{
-    height: 10%;
-    background-color: lightcyan;
+    background-attachment: none;
 }
 #gor1{
 /*    background-image: url(test.png); */
@@ -79,13 +77,6 @@ nav a:hover{
 .anaYazi p{
     font-family: 'Rampart One', cursive;
     font-size: 75px;
-}
-.anaFiltre{
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.23;
-    z-index: 0;
 }
 
 
